@@ -1,6 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author : Kunal Kumar Sahoo
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
 %------------------------
@@ -138,9 +138,6 @@
     \resumeSubheading
       {Pandit Deendayal Energy University}{2021 -- 2025}
       {B.Tech in Computer Engineering (CGPA: \textbf{9.97})}{Gandhinagar, Gujarat}
-    \resumeSubheading  
-      {Kendriya Vidyalaya No.1, Gandhinagar}{2021}
-      {Class XII (Percentage: \textbf{94.8\%})}{Gandhinagar, Gujarat}
   \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
@@ -149,71 +146,54 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, Julia, Java, C, C++, Dart, MySQL, HTML, Bash} \\
-     \textbf{Technologies/Frameworks}{: NumPy, Pandas, Matplotlib, Seaborn, OpenCV, Tensorflow, Keras, Mediapipe, Flask, Flutter, Arduino, Raspberry PI, Linux, GitHub} \\
+     \textbf{Technologies/Frameworks}{: NumPy, Pandas, Matplotlib, Seaborn, OpenCV, Tensorflow, Keras, Mediapipe, Flask, Flutter, Arduino, Raspberry PI, Linux, GitHub, Firebase} \\
      }
      \textbf{Developer Tools}{: VS Code, Jupyter Notebooks, Google Colab, Android Studio, ViM, SolidWorks, TinkerCAD} \\
-     \textbf{Utility tools}{: Google forms, Microsoft Office, Latex, Microsoft Teams, Notion}
-     }
  \end{itemize}
  \vspace{-16pt}
 
-
-%-----------EXPERIENCE-----------
-\section{Experience}
-    \vspace{1pt}
-  \resumeSubHeadingListStart
-
-  \resumeSubheading
-      {ACM Student Chapter, PDEU}{Jan 2023 -- November}
-      {Sub-committee member, AI/ML}{Gandhinagar, Gujarat}
-      \resumeItemListStart
-        \resumeItem{Responsible for organizing workshops in the domains of Python, Computer Vision, Machine Learning and Deep Learning}
-        \resumeItem{Tech-stack: Python (NumPy, Pandas, Matplotlib, Tensorflow), Julia, R}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {SLoP 2.0, DA-IICT}{Oct 2022 -- November}
-      {Open source contributor}{Remote}
-      \resumeItemListStart
-        \resumeItem{Worked on the project \textbf{Finding data from Permanent Shadowed Regions}}
-        \resumeItem{Tech-stack: Python (NumPy, Pandas, Matplotlib, Scikit-learn), OpenCV}
-        \resumeItem{Utilizing the concepts of \textbf{Image Processing}, \textbf{Machine Learning} and \textbf{Deep Learning} to find data in the permanent shadowed regions by processing OHRC images}
-        \resumeItem{Developing a Python script to generate \textbf{.tif images} from the data provided by \textbf{Indian Space Science Data Centre} }
-      \resumeItemListEnd
-
-      \resumeSubheading
-      {GDSC Student Chapter, PDEU}{Sept 2022 -- November}
-      {Team member, AI/ML}{Remote}
-      \resumeItemListStart
-        \resumeItem{Conducted a workshop on Deep Learning attended by students from all 4 years of B.Tech}
-        \resumeItem{Tech-stack: Python (NumPy, Pandas, Matplotlib, Tensorflow, Scikit-learn), OpenCV, GCP}
-        \resumeItem{Creating a community and helping them start with Google services like Tensorflow, Google ML APIs etc.}
-        \resumeItem{Conduct events like Google WOW etc. for Gandhinagar chapters}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Encode, PDEU}{August 2022 -- Present}
-      {Core committee member, App Development, AI/ML}{Gandhinagar, Gujarat}
-      \resumeItemListStart
-        \resumeItem{Developed a \textbf{full-stack} mobile application for the quiz club in a \textbf{team} of 3 people.}
-        \resumeItem{Working on \textbf{Recommendation system using Deep Learning techniques and Clustering for unlabeled categorical data}}
-        \resumeItem{Collaborated with team members using version control systems such as \textbf{Git} and services like Trello to organize modifications and assign tasks.}
-        % \resumeItem{Utilized \textbf{Android Studio} as a development environment in order to develop and test the working of the applications.}
-    \resumeItemListEnd
-    
-    \resumeSubheading
-      {Cretus, PDEU}{August 2021 -- Present}
-      {Technical member}{Gandhinagar, Gujarat}
-      \resumeItemListStart
-        \resumeItem{Develop \textbf{robots} and \textbf{IoT gadgets} for various kinds of competitions and exhibitions. }
-        \resumeItem {Use technologies like \textbf{Arduino}, \textbf{Raspberry Pi}, \textbf{Linux}, and softwares like \textbf{Arduino IDE}, \textbf{SolidWorks} and \textbf{TinkerCAD} for developing projects. }
-        \resumeItem{Currently building a \textbf{miniature Mars rover} for the technical fest of the university.}
-        \resumeItem{Have conducted workshops on \textbf{Getting started with Arduino Development}}
-        \resumeItem{Previously built competitive robots like \textbf{Line-following robot}, \textbf{Maze solver}, etc.}
-    \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-\vspace{4pt}
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-2pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Nyx} $|$ \emph{Tensorflow, OpenCV, ROS, Foxglove Studio}}{Semptember 2022 - Present}
+          \resumeItemListStart
+            \resumeItem{Developing a self-driving robot using only cameras for environment sensing.}
+            \resumeItem{Have worked with several segmentation architectures like \textbf{U-Net}, \textbf{VGG} etc.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{SitRight} $|$ \emph{Python, MediaPipe, OpenCV, SQLite, Raspberry Pi}}{July 2022 - Present}
+          \resumeItemListStart
+            \resumeItem{Designed a \textbf{Mathematical model} for Posture classification.}
+            \resumeItem{Used \textbf{OpenCV} for image preprocessing and \textbf{MediaPipe} for posture detection.}
+            \resumeItem{Currently sponsored under \textbf{ORSP, PDEU} for further research and product development.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Hand-Gesture-based-Painter} $|$ \emph{Python, NumPy, OpenCV, Mediapipe}}{May 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a software to mimic basic drawing functionalities of MS-Paint using \textbf{hand gestures}}
+            \resumeItem{Used \textbf{MediaPipe} for hand-tracking and \textbf{OpenCV} for image processing}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+        \resumeProjectHeading
+          {\textbf{Face-Recognition-cum-Attendance-system} $|$ \emph{Python, NumPy, OpenCV, MySQL, DLib}}{January 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a software for \textbf{real-time} \textbf{face recognition}.}
+            \resumeItem{Used \textbf{HOG} method for face recognition from labeled data.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Face-Mask-Detection} $|$ \emph{Python, Tensorflow, OpenCV}}{January 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a software to classify in \textbf{real-time} whether a person is wearing mask or not.}
+            \resumeItem{Implemented \textbf{MobileNetV2} architecture using CNN.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{0 pt}
 
 %-----------ACHIEVEMENTS-----------
 \section{Achievements}
@@ -238,7 +218,7 @@
         \resumeProjectHeading
           {\textbf{Grand Finalist, EnCode@IIT Guwahati}  \emph{}}{January 2023}
           \resumeItemListStart
-            \resumeItem{Participated in the grand finale round of the EnCode, a hackathon organized by\textbf{IIT Guwahati} sponsored by \textbf{Bosch}}
+            \resumeItem{Secured \textbf{3rd} position in the grand finale round of the EnCode, a hackathon organized by\textbf{IIT Guwahati} sponsored by \textbf{Bosch}}
             \resumeItem{Developed a \textbf{Deep Learning model} for \textbf{Road segmentation} and \textbf{3-D Box Bounding} using for autonomous vehicles using \textbf{Cityscape Dataset}}
           \resumeItemListEnd
           \vspace{-13pt}
@@ -252,54 +232,46 @@
           \vspace{-13pt}
  \resumeSubHeadingListEnd
  \vspace{1}
+ 
+%-----------EXPERIENCE-----------
+\section{Experience}
+    \vspace{1pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {SLoP 2.0, DA-IICT}{Oct 2022 -- Nov 2022}
+      {Contributor}{Remote}
+      \resumeItemListStart
+        \resumeItem{Worked on the project \textbf{Finding data from Permanent Shadowed Regions}}
+        \resumeItem{Developed a Python script to generate \textbf{.tif images} from \textbf{OHRC} data.}
+        \resumeItem{Tech-stack: Python (NumPy, Pandas, Matplotlib, Scikit-learn), OpenCV}
+      \resumeItemListEnd
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-2pt}
-    \resumeSubHeadingListStart
-        \resumeProjectHeading
-          {\textbf{Height Predictor} $|$ \emph{Python, Scikit-learn, Flask, HTML}}{Semptember 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a simple model which predicts approximate height of a person based on the age fed.}
-            \resumeItem{Deployed the model over web with the help of \textbf{Flask}.}
-            \resumeItem{Used \textbf{OpenCV} for extracting image frames from video feed and \textbf{MediaPipe} to detect and skeletonize human body from the image and determine key points}
-            \resumeItem{Performed \textbf{Exploratory Data Analysis} while developing the model.}
-          \resumeItemListEnd
-          \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{SitRight} $|$ \emph{Python, MediaPipe, OpenCV, SQLite, Raspberry Pi}}{July 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a Python-based \textbf{IoT device} that connects to monitors and alerts user when bad sitting posture is maintained too long at \textbf{Pythakon'22 hackathon}  held at CHARUSAT.}
-            \resumeItem{Implemented the solution on a Raspberry Pi which can connect to user's workstation (Desktop/Laptop) wirelessly.}
-            \resumeItem{Used \textbf{OpenCV} for extracting image frames from video feed and \textbf{MediaPipe} to detect and skeletonize human body from the image and determine key points}
-            \resumeItem{Developed a simple \textbf{mathematical mode} to determine angle of inclination between the back and neck and used \textbf{Machine learning algorithms} to classify the posture as 'Good' or 'Bad' and send alert messages and report to user's workstation}
-          \resumeItemListEnd
-          \vspace{-13pt}
-        \resumeProjectHeading
-          {\textbf{Face-Recognition-cum-Attendance-system} $|$ \emph{Python, NumPy, OpenCV, MySQL,  \href{https://pypi.org/project/face-recognition/}{Face-Recognition}}}{January 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a Python software that can recognize faces from a video feed in \textbf{real-time} and update attendance of registered faces in the database}
-            \resumeItem{Implemented using the pre-trained weights of the \textbf{dlib} library.}
-            \resumeItem{Used HOG method internally to recognize faces from training images with labels.}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-          \resumeProjectHeading
-          {\textbf{Hand-Gesture-based-Painter} $|$ \emph{Python, NumPy, OpenCV, Mediapipe}}{May 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a Python software that could \textbf{track hand-gestures and hand movements} and accordingly draw lines on a virtual canvas}
-            \resumeItem{Used Google's \textbf{Mediapipe} library which provides pre-trained models and weights for hand tracking}
-            \resumeItem{Used simple image manipulation techniques over \textbf{OpenCV} to draw lines of different colors.}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{Face-Mask-Detection} $|$ \emph{Python, Tensorflow, OpenCV}}{January 2022}
-          \resumeItemListStart
-            \resumeItem{Developed a Python software that can classify in \textbf{real-time} whether a person is wearing a mask or not}
-            \resumeItem{Implemented \textbf{MobileNetV2} architecture which contained \textbf{convolution layer} with 32 filters, followed by 19 \textbf{residual bottleneck filters}}
-            \resumeItem{Used \textbf{Kaggle} dataset for training the model}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-    \resumeSubHeadingListEnd
-\vspace{-15pt}
+      \resumeSubheading
+      {GDSC Student Chapter, PDEU}{Sept 2022 -- Present}
+      {Team member, AI/ML}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developing an application for \textbf{real-time OCR} and \textbf{translator} for regional texts.}
+        \resumeItem{Tech-stack: GCP, AutoML, Google ML APIs}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Encode, PDEU}{August 2022 -- Present}
+      {Core committee member, App Development, AI/ML}{Gandhinagar, Gujarat}
+      \resumeItemListStart
+        \resumeItem{Working on a recommendation system using \textbf{Deep learning} and \textbf{Clustering} from categorical data.}
+        \resumeItem{Developed a \textbf{mobile application} for the Quiz club of university.}
+        \resumeItem{Tech-stack: Tensorflow, Scikit-learn, MySQL, Flutter, Git, Firebase}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Cretus, PDEU}{August 2021 -- Present}
+      {Technical member}{Gandhinagar, Gujarat}
+      \resumeItemListStart
+        \resumeItem{Built a working half-scale prototype of \textbf{Perseverance rover} and live-streamed camera feed using Python.}
+        \resumeItem{Also developed, competitive line followers, obstacle avoiders and micromouses for robotics competition.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{4pt}
 
 \end{document}
